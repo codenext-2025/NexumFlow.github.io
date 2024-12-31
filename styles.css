@@ -723,9 +723,12 @@ header .logo .subtext {
     }
 
     .image-frame {
-        width: 90%;
-        height: 200px;
-        margin-left: 0;
+        height: 183px;
+        margin-left: 18.5px;
+    }
+
+    .image-frame img{
+        height: 180px;
     }
 
     /* Services section modifications */
@@ -881,11 +884,14 @@ header .logo .subtext {
     }
 
     .image-frame {
-        width: 90%;
-        height: 100px;
+        height: 203px;
         margin-left: 0;
     }
 
+    .image-frame img{
+        height: 200px;
+    }
+    
     /* Services section modifications */
     .heading {
         font-size: 24px;
@@ -1039,9 +1045,12 @@ header .logo .subtext {
     }
 
     .image-frame {
-        width: 90%;
-        height: 200px;
+        height: 253px;
         margin-left: 0;
+    }
+
+    .image-frame img{
+        height: 250px;
     }
 
     /* Services section modifications */
