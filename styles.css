@@ -673,8 +673,12 @@ header .logo .subtext {
     font-size: 14px;
 }
 
-@media screen and (max-width: 320px) and (max-height: 704px) {
+@media screen and (min-width: 320px) and (max-height: 704px) {
     /* Header modifications */
+    .loading-text{
+        font-size: 40px;
+    }
+    
     header {
         width: 100%;
         padding: 8px 12px;
@@ -835,7 +839,12 @@ header .logo .subtext {
     }
 }
 
-@media screen and (max-width: 375px) and (max-height: 704px) {
+@media screen and (min-width: 375px) and (max-height: 704px) {
+    
+    .loading-text{
+        font-size: 40px;
+    }
+    
     header {
         width: 100%;
         padding: 8px 12px;
@@ -891,7 +900,7 @@ header .logo .subtext {
     .image-frame img{
         height: 200px;
     }
-    
+
     /* Services section modifications */
     .heading {
         font-size: 24px;
@@ -996,7 +1005,12 @@ header .logo .subtext {
     }
 }
 
-@media screen and (max-width: 450px) and (max-height: 704px) {
+@media screen and (min-width: 425px) and (max-height: 704px) {
+    
+    .loading-text{
+        font-size: 40px;
+    }
+    
     header {
         width: 100%;
         padding: 8px 12px;
@@ -1157,7 +1171,7 @@ header .logo .subtext {
     }
 }
 
-@media screen and (max-width: 770px) and (max-height: 704px) {
+@media screen and (min-width: 768px) and (max-height: 704px) {
     header {
         width: 100%;
         padding: 8px 12px;
@@ -1211,6 +1225,10 @@ header .logo .subtext {
         width: 90%;
         height: 400px;
         margin-left: 0;
+    }
+
+    .image-frame img{
+        height: 398px;
     }
 
     /* Services section modifications */
